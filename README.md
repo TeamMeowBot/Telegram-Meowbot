@@ -1,1 +1,3 @@
-# Hello, codes will be here in 1-2 days
+# Meowbot for Telegram
+
+* Copy sample.config file and rename it as `bot.config` 
