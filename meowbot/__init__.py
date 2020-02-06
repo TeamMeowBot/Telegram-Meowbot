@@ -1,3 +1,7 @@
-def main():
-    """Entry point for the application script"""
-    print("Call your main application code here")
+import configparser
+
+settings = configparser.ConfigParser()
+settings._interpolation = configparser.ExtendedInterpolation()
+settings.read("bot.config")
+print(settings.sections())
+
